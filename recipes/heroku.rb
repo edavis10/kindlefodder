@@ -1,4 +1,3 @@
-
 =begin
 
 The internals of a recipe are up to you, but a recipe should do at least the
@@ -65,7 +64,7 @@ class Heroku < Kindlefodder
 
   def document 
     {
-      'title => 'Heroku Platform Guide',
+      'title' => 'Heroku Platform Guide',
       'cover' => nil,
       'masthead' => nil,
     }
